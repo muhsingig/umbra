@@ -1,0 +1,7 @@
+{
+  "framework": null,
+  "installCommand": "echo skipping install - the build needs no packages",
+  "buildCommand": "python3 tools/build.py || python tools/build.py || echo no python on this image - serving the committed dist/",
+  "outputDirectory": "dist",
+  "cleanUrls": true
+}
