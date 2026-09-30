@@ -1,0 +1,13 @@
+{
+  "name": "umbra",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Scroll-driven site for a concept dark-sky lodge in Ladakh",
+  "scripts": {
+    "build": "python3 tools/build.py && cp dist/index.html index.html",
+    "serve": "npx serve ."
+  },
+  "devDependencies": {
+    "playwright-core": "^1.56.0"
+  }
+}
